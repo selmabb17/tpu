@@ -1,0 +1,26 @@
+.DS_Store
+.idea
+*.vcd
+runs
+tt_submission
+src/user_config.json
+src/config_merged.json
+test/sim_build
+test/__pycache__/
+test/results.xml
+test/gate_level_netlist.v
+/test/pe/__pycache__
+test/pe/results.xml
+/test/pe/sim_build
+/test/memory/sim_build
+/test/memory/__pycache__
+test/memory/results.xml
+<<<<<<< Updated upstream
+/src/__pycache__
+src/results.xml
+/src/sim_build
+=======
+/src
+>>>>>>> Stashed changes
+/test/control/__pycache__
+test/control/results.xml
