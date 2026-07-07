@@ -32,9 +32,9 @@ Le site utilise **Decap CMS** avec l'authentification **Netlify Identity** — t
    - **Réglages du Site** → modifier le numéro WhatsApp si besoin.
 7. Chaque modification publiée dans `/admin` crée automatiquement un commit sur GitHub et redéploie le site — aucune intervention technique nécessaire ensuite.
 
-## Une fois le nom de domaine définitif connu
+## Si un nom de domaine personnalisé est ajouté plus tard
 
-Remplacer `https://miralabaya.com/` dans `index.html` (balises `canonical`, Open Graph, Twitter, JSON-LD) et dans `robots.txt` / `sitemap.xml` par le vrai domaine du site.
+Le site utilise actuellement `https://miralabayaa.netlify.app/`. Si un nom de domaine personnalisé (ex: `miralabaya.dz`) est branché plus tard dans Netlify, remplacer cette adresse dans `index.html` (balises `canonical`, Open Graph, Twitter, JSON-LD) et dans `robots.txt` / `sitemap.xml`.
 
 ## Développement local
 
