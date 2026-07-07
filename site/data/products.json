@@ -28,7 +28,10 @@
       "category": "standard",
       "delivery": "1 semaine",
       "featured": false,
-      "photos": []
+      "photos": [
+        "/assets/products/abaya-arabya2.jpeg",
+        "/assets/products/abaya-arabaya.png"
+      ]
     },
     {
       "name": "Abaya Prestige VIP",
@@ -38,7 +41,10 @@
       "category": "vip",
       "delivery": "1 mois",
       "featured": false,
-      "photos": ["assets/products/prestige-vip.jpg"]
+      "photos": [
+        "assets/products/prestige-vip.jpg",
+        "/assets/products/whatsapp-image-2026-07-07-at-9.02.02-pm.jpeg"
+      ]
     },
     {
       "name": "Abaya Perle Blanche Royal",
@@ -58,7 +64,9 @@
       "category": "standard",
       "delivery": "1 semaine",
       "featured": false,
-      "photos": ["assets/products/abaya-broche.jpg"]
+      "photos": [
+        "assets/products/abaya-broche.jpg"
+      ]
     },
     {
       "name": "Abaya Guipure Simple",
@@ -88,7 +96,9 @@
       "category": "standard",
       "delivery": "1 semaine",
       "featured": false,
-      "photos": []
+      "photos": [
+        "/assets/products/abaya-cristal.jpeg"
+      ]
     },
     {
       "name": "Abaya Line",
@@ -119,6 +129,27 @@
       "delivery": "1 semaine",
       "featured": false,
       "photos": []
+    },
+    {
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "name": "Abaya classic",
+      "price": "16000 DA",
+      "desc": "tissus premier choix ",
+      "photos": [
+        "/assets/products/abaya-classic.jpeg"
+      ]
+    },
+    {
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "name": "Abaya Royel(noir et blanc)",
+      "price": "27000",
+      "photos": [
+        "/assets/products/abaya-royel.jpeg"
+      ]
     }
   ]
 }
