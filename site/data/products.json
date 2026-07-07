@@ -40,7 +40,7 @@
       "badge": "VIP",
       "category": "vip",
       "delivery": "1 mois",
-      "featured": false,
+      "featured": true,
       "photos": [
         "assets/products/prestige-vip.jpg",
         "/assets/products/whatsapp-image-2026-07-07-at-9.02.02-pm.jpeg"
