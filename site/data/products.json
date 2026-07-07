@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "Abaya Dentelle",
+      "price": "20 000 DZD",
+      "desc": "Dentelle brodée à la main, tissu fluide premium",
+      "badge": "Nouveau",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": true,
+      "photos": []
+    },
+    {
+      "name": "Abaya Dain Velour",
+      "price": "2 200 DZD",
+      "desc": "Velours de luxe, col brodé avec finitions dorées",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Arabia",
+      "price": "22 000 DZD",
+      "desc": "Style arabesque authentique, broderies orientales",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Prestige VIP",
+      "price": "40 000 DZD",
+      "desc": "Paillettes dorées cousues à la main, noeud de soie, pièce unique",
+      "badge": "VIP",
+      "category": "vip",
+      "delivery": "1 mois",
+      "featured": false,
+      "photos": ["assets/products/prestige-vip.jpg"]
+    },
+    {
+      "name": "Abaya Perle Blanche Royal",
+      "price": "20 000 DZD",
+      "desc": "Perles royales, tissu blanc ivoire, élégance pure",
+      "badge": "Bestseller",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    }
+  ]
+}

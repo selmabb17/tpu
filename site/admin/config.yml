@@ -1,0 +1,68 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Chemins donnés depuis la racine du dépôt GitHub (le site vit dans le dossier /site).
+media_folder: "site/assets/products"
+public_folder: "/assets/products"
+
+publish_mode: simple
+logo_url: /assets/logo.png
+
+collections:
+  - name: "products"
+    label: "Articles (Collection)"
+    files:
+      - name: "products"
+        label: "Liste des Articles"
+        file: "site/data/products.json"
+        description: "Ajoutez, modifiez ou supprimez les articles affichés sur le site. Chaque changement publié met à jour le site automatiquement."
+        fields:
+          - label: "Articles"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.price}}"
+            fields:
+              - { label: "Nom de l'article", name: "name", widget: "string" }
+              - { label: "Prix (ex: 20 000 DZD)", name: "price", widget: "string" }
+              - { label: "Description", name: "desc", widget: "text" }
+              - label: "Badge (optionnel)"
+                name: "badge"
+                widget: "select"
+                required: false
+                options: ["", "Nouveau", "Bestseller", "VIP", "Promo"]
+              - label: "Catégorie"
+                name: "category"
+                widget: "select"
+                options:
+                  - { label: "Modèle Classique — livraison 1 semaine", value: "standard" }
+                  - { label: "Modèle VIP — livraison 1 mois", value: "vip" }
+                default: "standard"
+              - label: "Délai de livraison affiché"
+                name: "delivery"
+                widget: "string"
+                hint: "Ex: 1 semaine (classique) ou 1 mois (VIP)"
+                default: "1 semaine"
+              - label: "Mettre en avant (grande vignette sur la page d'accueil)"
+                name: "featured"
+                widget: "boolean"
+                default: false
+                required: false
+              - label: "Photos de l'article"
+                name: "photos"
+                widget: "list"
+                field: { label: "Photo", name: "photo", widget: "image" }
+                required: false
+
+  - name: "settings"
+    label: "Réglages du Site"
+    files:
+      - name: "settings"
+        label: "WhatsApp & Contact"
+        file: "site/data/settings.json"
+        description: "Numéro WhatsApp utilisé pour recevoir les commandes du site."
+        fields:
+          - label: "Numéro WhatsApp (format international, sans le +)"
+            name: "whatsapp_number"
+            widget: "string"
+            hint: "Ex: 213664085668"
