@@ -49,6 +49,86 @@
       "delivery": "1 semaine",
       "featured": false,
       "photos": []
+    },
+    {
+      "name": "Abaya Broche",
+      "price": "14 800 DA",
+      "desc": "Abaya ceinturée avec broche florale, coupe fluide et élégante",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": ["assets/products/abaya-broche.jpg"]
+    },
+    {
+      "name": "Abaya Guipure Simple",
+      "price": "16 000 DA",
+      "desc": "Guipure délicate, coupe sobre et raffinée",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Guipure à Fleurs",
+      "price": "16 000 DA",
+      "desc": "Guipure brodée de motifs floraux, finition élégante",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Dentelle",
+      "price": "20 000 DA",
+      "desc": "Dentelle fine travaillée à la main, tombé délicat",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Cristal",
+      "price": "20 000 DA",
+      "desc": "Ornée de cristaux scintillants, éclat raffiné",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Line",
+      "price": "14 500 DA",
+      "desc": "Coupe minimaliste et moderne, ligne épurée",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Cloche",
+      "price": "13 500 DA",
+      "desc": "Silhouette évasée en cloche, tombé gracieux",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
+    },
+    {
+      "name": "Abaya Pierre",
+      "price": "13 500 DA",
+      "desc": "Ornée de pierres fines, détails précieux",
+      "badge": "",
+      "category": "standard",
+      "delivery": "1 semaine",
+      "featured": false,
+      "photos": []
     }
   ]
 }
